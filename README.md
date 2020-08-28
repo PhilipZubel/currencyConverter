@@ -1,6 +1,6 @@
 View this project at: https://philipzubel.github.io/currencyConverter/
 
-API used in this project: https://api.exchangeratesapi.io/
+API used for this project: https://api.exchangeratesapi.io/
 
 Technologies used:
 - React.js and JavaScript

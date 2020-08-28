@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#exchangeIcon {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  opacity: 0.92;
+  max-height: 90px;
+  max-width: 90px;
+  transition: 0.1s ease-in-out;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#exchangeIcon:hover {
+  color: black;
+  opacity: 1;
+}
+
+@media (min-width: 991.98px) {
+  #exchangeIcon {
+    margin-top: 25px;
+  }
+
+  #title {
+    margin-top: 50px;
+  }
+  #container {
+    margin-top: 20px;
+  }
+}

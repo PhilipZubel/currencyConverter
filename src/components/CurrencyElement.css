@@ -1,0 +1,61 @@
+#card {
+  background-color: aliceblue !important;
+  border: 1px solid #348ac4;
+  border-radius: 10px;
+  transition: 0.1s ease-in;
+}
+
+#currencyElement {
+  padding: 5px;
+}
+
+#card:hover {
+  border-bottom: 5px solid #348ac4;
+}
+
+#inputBox[type="number"] {
+  width: 90%;
+  margin: auto;
+  display: block;
+  padding: 6px 10px;
+  font-size: 24px;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 3px solid #348ac4;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s all ease;
+}
+
+#inputBox[type="number"]:hover {
+  border: 3px solid #004896;
+  padding: 6px 10px;
+  width: 95%;
+}
+
+#selectItem {
+  font-size: 20px;
+  text-align-last: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#selectItem,
+#currencyElement {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+@media (min-width: 991.98px) {
+  #currencyElement {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+  }
+
+  #selectItem {
+    margin-top: 10px;
+  }
+}
